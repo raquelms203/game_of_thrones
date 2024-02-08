@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+html, body, pre {
+    background-color: #092635;
+    color: #DDE6ED;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    font-family: Arial;
+    margin-top: 10px;
+}

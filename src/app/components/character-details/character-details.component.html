@@ -1,0 +1,17 @@
+<main *ngIf="id == undefined">
+<app-not-found-error></app-not-found-error>
+</main>
+    <app-go-back-arrow></app-go-back-arrow>
+<main *ngIf="id != undefined" class="container-details">
+    <h1>{{ character?.name }}</h1>
+    <img src="{{ character?.image }}" class="hide-element"
+    onload="this.classList.remove('hide-element')">
+    <div>
+        <pre class="title-details">Title: </pre>
+        <span> {{ character?.title }}</span>
+    </div>
+    <div>
+        <pre class="title-details">Family: </pre>
+        <span>{{ character?.family }}</span>
+    </div>
+</main>

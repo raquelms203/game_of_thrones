@@ -1,0 +1,21 @@
+.container-card-item {
+    width: 200px;
+    background-color: #526D82;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 10px;
+    width: 190px;
+    height: 220px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
